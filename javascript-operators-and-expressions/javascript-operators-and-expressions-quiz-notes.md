@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What data type is returned by an arithmetic operation?
-  The data type that is returned by an arithmetic operation are arithmetic operators such as + (addition), - (subtraction), \* (multiplication), / (division), and % (remainder).
+  The data type that is returned by an arithmetic operation are arithmetic operators such as + (addition), - (subtraction), \* (multiplication), / (division), and % (remainder). Numeric data
 - What is string concatenation?
   String concatenation is a new string that is a combination of multiple strings.
 - What purpose(s) does the `+` plus operator serve in JavaScript?
