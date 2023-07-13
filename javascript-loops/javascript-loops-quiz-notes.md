@@ -15,9 +15,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 - _When_ does the **initialization** expression of a `for` loop get evaluated?
   The initialization expression of a "for" loop gets evaluated once at the beginning of the loop.
 - _When_ does the **condition** expression of a `for` loop get evaluated?
-  The condition expression of a "for" loop is evaluated each time the loop repeats.
+  The condition expression of a "for" loop is evaluated each time the loop repeats. After each iteration and initialization.
 - _When_ does the **final** expression of a `for` loop get evaluated?
-  The final expression of a "for" loop gets evaluated at the end of each loop iteration.
+  The final expression of a "for" loop gets evaluated at the end of each loop iteration. After each code is run inside the loop.
 - Besides a `return` statement, which exits its entire function block, which keyword exits a loop before its **condition** expression evaluates to `false`?
   The keyword that exits a loop before its condition expression evaluates to false is break.
 - What does the `++` increment operator do?
