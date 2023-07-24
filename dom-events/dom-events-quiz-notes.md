@@ -17,17 +17,17 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What object is passed into an event listener callback when the event fires?
   The object that is passed into an event listener callback when the event fires is the "Event" object because it contains info about the event that occurred.
 - What is the `event.target`? If you weren't sure, how would you check? Where could you get more information about it?
-  "Event.target" is the property of the "Event" object that refers to the element on which the event is triggered. You can check MDN's article on event:target property article to get more information about the "event" property.
+  "Event.target" is the property of the "Event" object that refers to the element on which the event is triggered. You can check by console loging the property. You can get more information by MDN's article on event:target property article.
 - What is the difference between these two snippets of code?
   `js
-    element.addEventListener('click', handleClick)
-    `
+  element.addEventListener('click', handleClick)
+  `
   `js
-    element.addEventListener('click', handleClick())
-    `
-  The first line of code is setting up the event listener to have the handleClick function as the callback to be executed when the "click" event occurs on the element. The function handleClick will only be called when the "click" event is triggered.
+  element.addEventListener('click', handleClick())
+  `
+  The first line of code is setting up the event listener to have the handleClick function as the callback to be executed when the "click" event occurs on the element. The function handleClick will only be called when the "click" event is triggered. We're passing the reference to the function.
 
-The second line of code is executing the handleClick function and passing its return value as the callback to the "click" event listener. We are invoking it right away and the return value is passed as the event listener.
+The second line of code is executing the handleClick function and passing its return value as the callback to the "click" event listener. We are invoking it right away and the return value is passed as the event listener. We're calling the function directly.
 
 ## Notes
 
