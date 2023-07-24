@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: large;
+}
+
+.container {
+  letter-spacing: 1px;
+  line-height: 30px;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 75%;
+  margin: auto;
+}
+
+.column-full {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+.column-half {
+  display: flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.column-image {
+  flex: 30%;
+}
+
+.column-text {
+  flex: 70%;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+}
+
+h3 {
+  width: 75%;
+  font-size: large;
+}
+
+p {
+  font-size: medium;
+}
+
+img {
+  height: 50%;
+}
+
+button {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  border-color: rgb(210, 79, 72);
+  color: rgb(210, 79, 72);
+  background-color: white;
+  font-size: large;
+  padding: 10px;
+  margin: 20px;
+  width: 200px;
+}
