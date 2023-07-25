@@ -1,0 +1,30 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.active {
+  background-color: rgb(17, 17, 17);
+}
+
+.row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.click-button {
+  margin: 0 auto;
+  border: none;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(250, 234, 132);
+  box-shadow: 6px 6px 7px rgb(254, 243, 195);
+}
+
+.click-button.active {
+  background-color: rgb(37, 37, 37);
+  box-shadow: 5px 6px 7px rgb(12, 12, 12);
+}
