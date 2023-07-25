@@ -1,0 +1,22 @@
+.column {
+  /* display: none; */
+
+  /* position: fixed; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.click-button {
+  background-color: rgb(235, 93, 93);
+  color: rgb(253, 240, 240);
+  border: none;
+  padding: 10px;
+}
