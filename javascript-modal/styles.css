@@ -1,22 +1,47 @@
-.column {
-  /* display: none; */
-
-  /* position: fixed; */
+.popup-container {
+  display: none;
+  position: fixed;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
-  display: flex;
+  left: 0;
+  width: 400px;
+  height: 200px;
   align-items: center;
   justify-content: center;
-  border: solid;
-  border-color: black;
-  border-radius: 15px;
+  border-color: white;
+  border-radius: 5px;
+  margin: auto;
+  background-color: white;
+  box-shadow: rgb(50, 50, 50);
+}
+
+.shadow-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(50, 50, 50);
 }
 
 .click-button {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
   background-color: rgb(235, 93, 93);
   color: rgb(253, 240, 240);
   border: none;
   padding: 10px;
+  font-size: large;
+}
+
+.open-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: x-large;
+  background-color: rgb(74, 74, 233);
+  color: rgb(242, 242, 252);
 }
