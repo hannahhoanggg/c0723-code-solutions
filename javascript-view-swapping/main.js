@@ -18,8 +18,6 @@ function tabContainer(event) {
   const $dataView = event.target.getAttribute('data-view');
 
   for (let i = 0; i < $view.length; i++) {
-    console.log($view[i]);
-    console.log($view[i].getAttribute('data-view'));
     if ($view[i].getAttribute('data-view') === $dataView) {
       $view[i].className = 'view';
     } else {
