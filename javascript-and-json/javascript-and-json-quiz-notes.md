@@ -5,9 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is JSON?
-  JSON is a text-baed data format following JS object syntax. It exists as a string.
+  JSON is a text-based data format following JS object syntax. It exists as a string.
 - What are serialization and deserialization?
-  Serialization refers to the process of converting data from its native format into a linear data format that can be easily stored over a netwrok.
+  Serialization refers to the process of converting data from its native format into a linear data format that can be easily stored over a network.
   Deserialization is the reverse process of serialization and it involves taking serialized data and reconstructing it back into its original data structure.
 - Why are serialization and deserialization useful?
   It is useful for data persistence (allows data to be stored in a format that be easily saved to databases) and data transmission (can be transmitted over networks and communication channels).
