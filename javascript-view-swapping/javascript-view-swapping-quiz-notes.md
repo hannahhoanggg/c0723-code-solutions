@@ -46,3 +46,7 @@ div {
   width: 100%;
 }
 ```
+
+To check the console log
+console.log($view[i]);
+ console.log($view[i].getAttribute('data-view'));
