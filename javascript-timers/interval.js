@@ -1,13 +1,15 @@
-const $h1 = document.querySelector('h1');
-let countdownValue = $h1.textContent - 1;
-const countdownNumber = setInterval(countdown, 1000);
+let count = 4;
+let countdownId = null;
+const $countdownDisplay = document.querySelector('.countdown-display');
 
-function countdown(count) {
-  if (countdownValue > 0) {
-    $h1.textContent = countdownValue;
-    countdownValue--;
+function countDown() {
+  count--;
+  if (count > 0) {
+    $countdownDisplay.textContent = count;
   } else {
-    $h1.textContent = '~Earth Beeeelooowww Us~';
-    clearInterval(countdownNumber);
+    $countdownDisplay.textContent = '~Earth Beeeelooowww Us~';
+    clearInterval(countdownId);
   }
 }
+
+countdownId = setInterval(countDown, 1000);
