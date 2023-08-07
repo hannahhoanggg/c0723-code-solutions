@@ -17,11 +17,16 @@ const books = [
   },
 ];
 
+console.log('books: ', books);
 console.log('typeof books: ', typeof books);
-console.log('typeof JSON: ', JSON.stringify(books));
 
-const student = '{"id": "5", "String Name": "Hannah"}';
+const booksJSON = JSON.stringify(books);
+console.log('booksJSON: ', booksJSON);
+console.log('typeof booksJSON: ', typeof booksJSON);
+
+const studentJSON = '{"id": 5, "String Name": "Hannah"}';
+console.log('studentJSON: ', studentJSON);
+console.log('typeof studentJSON: ', typeof studentJSON);
+
+const student = JSON.parse(studentJSON);
 console.log('typeof student: ', typeof student);
-
-const jsonStudent = JSON.parse(student);
-console.log('typeof jsonStudent: ', typeof jsonStudent);
