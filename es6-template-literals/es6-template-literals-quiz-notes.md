@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the syntax for writing a template literal?
-  The syntax for writing a temple literal is by wrapping your text in backticks(`).
+  The syntax for writing a temple literal is by wrapping your text in backticks(`). It has a $ with the {variable name} inside the backticks.
 - What is "string interpolation"?
   A string interpolation is string formatting which is the ability to substitute a part of the string for values of variables or expressions.
 
