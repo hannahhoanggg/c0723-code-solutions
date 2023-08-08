@@ -1,5 +1,11 @@
+.hidden {
+  display: none;
+}
+
 .container {
   margin: 0 auto;
+  width: 900px;
+  border: 4px solid #000;
 }
 
 .row {
@@ -8,11 +14,23 @@
   width: 100%;
 }
 
-.first-page {
-  border: 3px solid;
+.column-full {
+  margin: auto;
 }
 
-.circle {
-  display: flex;
+.column-third {
+  display: inline-flex;
+  margin: auto;
+}
+
+.circle-button-container {
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.arrow-button {
+  font-size: 50px;
   justify-content: center;
+  margin-top: 50px;
 }
