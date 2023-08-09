@@ -3,10 +3,10 @@
 
 class Square extends Shape {
   constructor(width) {
-    super(width);
+    super(width * width, 4 * width);
     this.width = width;
     this.area = this.width * this.width;
-    this.perimeter = this.width + this.width + this.width + this.width;
+    this.perimeter = this.width * 4;
   }
 
   describe() {

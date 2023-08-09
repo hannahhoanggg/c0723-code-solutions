@@ -11,7 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - How do you declare a class?
   YOu declare a class by writing the name next to the class keyword on the first line of code.
 - How do you inherit from another class?
-  You inherit from another class by the inheritance concept of a subclass which inherits the attributes and methods from the superclass.
+  You inherit from another class by the inheritance concept of a subclass which inherits the attributes and methods from the superclass. You can use the extend keyword.
 - Why would you want to inherit from another class?
   You want to inherit from another class to create a hierarchy of classes to promote code reuse, extend, and modify the behavior defined in other classes.
 - How do you add methods and properties to a class?
