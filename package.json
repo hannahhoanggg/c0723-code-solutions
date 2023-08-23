@@ -1,5 +1,5 @@
 {
-  "name": "code-solutions",
+  "name": "c0723-code-solutions",
   "version": "1.0.0",
   "private": true,
   "description": "Code exercise solutions.",
@@ -7,13 +7,15 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "eslint": "^8.38.0",
+    "eslint": "^8.47.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
     "markuplint": "^3.7.0",
@@ -23,5 +25,10 @@
     "stylelint": "^15.4.0",
     "stylelint-config-recommended": "^11.0.0",
     "stylelint-config-standard": "^32.0.0"
-  }
+  },
+  "type": "module",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
