@@ -7,11 +7,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is a React component?
   React component is used to build user interfaces in web applications. It is reusable, self-contained units of UI that encapsulate their own behavior, structure, & presentation. It could be thought of as a custom HTML elements with associated JavaScript logic.
 - How do you define a component in React?
-  To fefine a component in React, you can create a functional component (defined as JavaScript functions that return JSX) or a class component (defined as JavaScript classes that extend the react.component class).
+  To define a component in React, you can create a functional component (defined as JavaScript functions that return JSX) or a class component (defined as JavaScript classes that extend the react.component class).
 - How is a component "rendered" (made visible on the browser page)?
-  The component is rendered(made visible on the browser page) by reconciliation/rendering process.
-  -Reconciliation: to compare the virtual React elements with the exisiting DOM elements.
-  -Rendering: updates the UI & reflect changes in app's state. It updates the DOM result in the visible changes on browser page.
+  The component is rendered(made visible on the browser page) by calling it like a function.
 
 ## Notes
 
