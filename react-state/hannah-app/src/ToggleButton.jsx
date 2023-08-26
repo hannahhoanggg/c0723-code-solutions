@@ -10,7 +10,9 @@ export default function ToggleButton({ text, color }) {
     console.log('after setter ', isClicked);
   }
   return (
-    <button onClick={handleClick} style={isClicked ? color : 'white'}>
+    <button
+      onClick={handleClick}
+      style={{ backgroundColor: isClicked ? color : 'white' }}>
       {text}
     </button>
   );
