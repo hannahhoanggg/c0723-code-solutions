@@ -1,0 +1,46 @@
+.hot-button {
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 1px;
+  box-shadow: 1px 7px 8px black;
+}
+
+.hot-button:hover {
+  cursor: pointer;
+}
+
+.hot-button.indigo {
+  background-color: rgb(53, 28, 117);
+  color: white;
+  border: 3px solid black;
+}
+
+.hot-button.purple {
+  background-color: rgb(103, 78, 167);
+  color: white;
+  border: 3px solid black;
+}
+
+.hot-button.pink {
+  background-color: rgb(224, 102, 102);
+  color: white;
+  border: 3px solid black;
+}
+
+.hot-button.peach {
+  background-color: rgb(246, 178, 107);
+  color: black;
+  border: 3px solid black;
+}
+
+.hot-button.yellow {
+  background-color: rgb(255, 255, 0);
+  color: black;
+  border: 3px solid black;
+}
+
+.hot-button.white {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
