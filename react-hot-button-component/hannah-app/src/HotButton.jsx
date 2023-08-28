@@ -15,7 +15,7 @@ export default function HotButton() {
     color = 'hot-button peach';
   } else if (count <= 15) {
     color = 'hot-button yellow';
-  } else if (count <= 18) {
+  } else {
     color = 'hot-button white';
   }
   return (
