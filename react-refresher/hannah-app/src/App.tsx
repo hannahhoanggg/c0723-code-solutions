@@ -15,9 +15,9 @@ function App() {
 
   return (
     <>
-      <CustomButton text="Down" count={count} onClick={handleClickDown} />
+      <CustomButton onCustomClick={handleClickDown} text="Down" count={count} />
       <CustomButton text={count} />
-      <CustomButton text="Up" count={count} onClick={handleClickUp} />
+      <CustomButton onCustomClick={handleClickUp} text="Up" count={count} />
     </>
   );
 }
