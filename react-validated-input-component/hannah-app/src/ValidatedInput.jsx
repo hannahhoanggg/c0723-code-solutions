@@ -15,7 +15,7 @@ export default function ValidatedInput() {
   }
 
   return (
-    <div form-group position-relative m-5>
+    <div className="form-group position-relative m-5">
       <form>
         <label>Password</label>
         <input
