@@ -1,0 +1,13 @@
+input {
+  margin-top: 2px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+label {
+  font-weight: bold;
+}
+
+.display {
+  color: red;
+}
