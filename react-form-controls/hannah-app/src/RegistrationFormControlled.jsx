@@ -6,7 +6,7 @@ export default function RegistrationFormControlled() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log({ username }, { password });
+    console.log({ username, password });
   }
 
   return (
