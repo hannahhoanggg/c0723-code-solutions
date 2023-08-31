@@ -1,12 +1,12 @@
-export default function Indicators() {
-  return (
-    <div className="column-sixth">
-      <button>0</button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>4</button>
-      <button>5</button>
-    </div>
-  );
+export default function Indicators({ count, current }) {
+  const buttons = [];
+  for (let i = 0; i < count; i++) {
+    buttons.push(
+      <button
+        style={{ backgroundColor: current === i ? 'lightblue' : undefined }}>
+        {i}
+      </button>
+    );
+  }
+  return <div>{buttons}</div>;
 }
