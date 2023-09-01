@@ -8,7 +8,7 @@ export default function SearchableList({ list }) {
 
   function filtered() {
     const filteredList = list.filter((quote) =>
-      quote.toLowerCase().includes(filterText)
+      quote.toLowerCase().includes(filterText.toLowerCase())
     );
     return filteredList.length === 0
       ? 'No items match the filter.'
