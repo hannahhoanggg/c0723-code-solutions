@@ -6,7 +6,19 @@ import Indicators from './Indicators';
 import './App.css';
 
 export default function RotatingBanner({ items }) {
-  const [currentIndex /*setCurrentIndex*/] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  function handleNextClick() {
+    setCurrentIndex((currentIndex + 1) % items.length);
+  }
+
+  function handlePrevClick() {
+    setCurrentIndex((currentIndex - 1 + items.length) % items.length);
+  }
+
+  function handleIndicatorClick(i) {
+    setCurrentIndex(i);
+  }
 
   return (
     <div className="container">
@@ -14,13 +26,17 @@ export default function RotatingBanner({ items }) {
         <Banner item={items[currentIndex]} />
       </div>
       <div className="row">
-        <PrevButton />
+        <PrevButton onPrevClick={handlePrevClick} />
       </div>
       <div className="row">
-        <Indicators count={items.length} current={currentIndex} />
+        <Indicators
+          count={items.length}
+          current={currentIndex}
+          onIndicatorClick={handleIndicatorClick}
+        />
       </div>
       <div className="row">
-        <NextButton />
+        <NextButton onNextClick={handleNextClick} />
       </div>
     </div>
   );
