@@ -1,16 +1,21 @@
+import { useState } from 'react';
 import './App.css';
-import HomePage from './HomePage';
 import AppDrawer from './AppDrawer';
 
-const heading = ['Menu', 'About', 'Get Started', 'Sign In'];
+const menuItems = [
+  'The Legend of Zelda',
+  'A Link to the Past',
+  'Ocarina of Time',
+  'The Wind Waker',
+  'Breath of the Wild',
+];
 
-function App() {
+export default function App() {
+  const [item, setItem] = useState('No menu selected');
   return (
-    <div className="App">
-      <AppDrawer />
-      <HomePage items={heading} />
+    <div>
+      <AppDrawer header="Choose a Game" items={menuItems} onSelect={setItem} />
+      <h1>{item}</h1>
     </div>
   );
 }
-
-export default App;
