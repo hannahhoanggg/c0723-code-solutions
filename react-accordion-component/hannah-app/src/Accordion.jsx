@@ -1,29 +1,31 @@
 import { useState } from 'react';
-import './App.css';
 
 export default function Accordion({ topics }) {
-  const [id, setId] = useState(0);
+  const [clickOpen, setClickOpen] = useState();
 
-  function handleToggle(toggleId) {
-    setId(toggleId);
+  function handleToggle(topic) {
+    setClickOpen(topic === clickOpen ? undefined : topic);
   }
 
   return (
     <div>
-      <Title text={topics} id={id} onClick={handleToggle} />
-      <Content />
+      {topics.map((topic) => (
+        <Topic
+          key={topic.id}
+          text={topic}
+          isOpen={topic === clickOpen}
+          onTopicClick={() => handleToggle(topic)}
+        />
+      ))}
     </div>
   );
 }
 
-function Title({ title, keyId, onToggle }) {
+function Topic({ topic, isOpen, onTopicClick }) {
   return (
-    <title key={keyId} onClick={() => onToggle(keyId)}>
-      {title}
-    </title>
+    <div>
+      <button onClick={onTopicClick}>{topic.title}</button>
+      {isOpen && <p>{topic.content}</p>}
+    </div>
   );
-}
-
-function Content({ text }) {
-  return <p>{text}</p>;
 }

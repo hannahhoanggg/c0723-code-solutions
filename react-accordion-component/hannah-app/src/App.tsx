@@ -23,11 +23,6 @@ const topics = [
 ];
 
 function App() {
-  return (
-    <div className="App">
-      <Accordion topic={topics} />
-    </div>
-  );
+  return <Accordion topic={topics} />;
 }
-
 export default App;
