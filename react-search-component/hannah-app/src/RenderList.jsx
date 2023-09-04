@@ -1,4 +1,12 @@
 export default function RenderList({ list }) {
-  const quotesList = list.map((quote, index) => <li key={index}>{quote}</li>);
-  return <ul>{quotesList}</ul>;
+  if (list.length === 0) {
+    return <div>No items match the filter.</div>;
+  }
+  return (
+    <ul>
+      {list.map((quote, index) => (
+        <li key={index}>{quote}</li>
+      ))}
+    </ul>
+  );
 }
