@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  width: 20rem;
+  padding: 0.2rem 0 0.2rem 0.5rem;
+  border: 3px solid black;
+  border-radius: 20px;
+  color: gray;
+  background-color: white;
+}
