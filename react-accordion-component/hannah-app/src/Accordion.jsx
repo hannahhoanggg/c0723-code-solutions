@@ -12,7 +12,7 @@ export default function Accordion({ topics }) {
       {topics.map((topic) => (
         <Topic
           key={topic.id}
-          text={topic}
+          topic={topic}
           isOpen={topic === clickOpen}
           onTopicClick={() => handleToggle(topic)}
         />

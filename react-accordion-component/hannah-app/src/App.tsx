@@ -23,6 +23,6 @@ const topics = [
 ];
 
 function App() {
-  return <Accordion topic={topics} />;
+  return <Accordion topics={topics} />;
 }
 export default App;
