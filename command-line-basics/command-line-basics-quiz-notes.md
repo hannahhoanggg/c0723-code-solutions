@@ -7,10 +7,10 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is a CLI?
   CLI is a command-line interface used for interacting with computer programs/systems by entering commands into a terminal or command prompt.
 - What is a GUI?
-  GUI is a graphical user interface for consumers of technology(end users).
+  GUI is a graphical user interface for consumers of technology.
 - Give at least one use case for each of the commands listed in this exercise.
 
-  - `man` : an interface to the system reference manuals (system's manual pager). q
+  - `man` : an interface to the system reference manuals (system's manual pager).
 
   - `cat` : concatenate files & print on the standard output.
 
@@ -31,6 +31,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   - `cp` : copy files & directories
 
 - What are the three virtues of a great programmer?
+  The three virtues of a great programmer is laziness, impatience, and hubris.
 
 ## Notes
 
