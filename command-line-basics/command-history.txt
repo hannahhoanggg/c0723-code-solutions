@@ -1,0 +1,500 @@
+   65  npm create vite@latest hannah-app -- --template react
+   66  cd hannah-app
+   67  npm install
+   68  npm run dev
+   69  cd ..
+   70  cd ..
+   71  git add react-events
+   72  git commit -m "Completed react-events exercise."
+   73  git push origin react-events
+   74  git switch main
+   75  git pull origin main
+   76  git branch react-state
+   77  git switch react-state
+   78  cd react-state
+   79  npm create vite@latest hannah-app -- --template react
+   80  cd hannah-app
+   81  npm install
+   82  npm run dev
+   83  npm run dev
+   84  cd ..
+   85  cd ..
+   86  git add react-state
+   87  git commit -m "Completed react-state exercise."
+   88  git push origin react-state
+   89  git switch main
+   90  git pull origin main
+   91  git switch react-events
+   92  git switch react-state
+   93  git switch main
+   94  git pull origin main
+   95  git switch react-state
+   96  git add react-state
+   97  git commit -m "Edited the code to toggle the button."
+   98  git push origin react-state
+   99  git switch main
+  100  git pull origin main
+  101  git switch objects-revisited
+  102  git switch main
+  103  git commit -m "Working on the second function."
+  104  git add objects-revisited
+  105  git commit -m 
+  106  git commit -m "Working on the second function."
+  107  git add objects-revisited
+  108  git commit -m "Working on the second function."
+  109  git switch main
+  110  git switch react-state
+  111  git add react-state
+  112  git commit -m "Made the correct changes to the code."
+  113  git push origin react-state
+  114  git switch main
+  115  git pull origin main
+  116  git switch objects-revisited
+  117  git status
+  118  git add objects-revisited
+  119  git commit -m "Work in progress."
+  120  git switch main
+  121  git pull origin main
+  122  git status
+  123  git pull origin main
+  124  git branch react-typescript
+  125  git switch react-typescript
+  126  cd react-typescript
+  127  npm create vite@latest hannah-app -- --template react-ts
+  128  cd hannah-app
+  129  npm install
+  130  npm run dev
+  131  cd ..
+  132  cd ..
+  133  git add react-typescript
+  134  git switch main
+  135  git pull origin main
+  136  git branch react-refresher
+  137  git switch react-refresher
+  138  git status
+  139  git switch react-typescript
+  140  git commi -m "Work in progress."
+  141  git commit -m "Work in progress."
+  142  git switch main
+  143  git commit -m "Work in progress."
+  144  git add react-typescript
+  145  git commit -m "Work in progress."
+  146  git switch main
+  147  git pull origin main
+  148  git branchreact-refresher
+  149  git branch react-refresher
+  150  git switch react-refresher
+  151  cd react-refresher
+  152  npm create vite@latest hannah-app -- --template react-ts
+  153  cd hannah-app
+  154  npm install
+  155  npm run dev
+  156  cd ..
+  157  cd ..
+  158  cd react-refresher
+  159  npm create vite@latest hannah-app -- --temple react
+  160  npm create vite@latest hannah-app -- --template react
+  161  cd hannah-app
+  162  npm install
+  163  npm run dev
+  164  cd ..
+  165  cd ..
+  166  git status
+  167  cd react-refresher
+  168  npm create vite@latest hannah-app -- --template react-ts
+  169  cd hannah-app
+  170  npm install
+  171  npm run dev
+  172  git add react-refresher
+  173  cd ..
+  174  cd ..
+  175  git add react-refresher
+  176  git commit -m "Work in progress."
+  177  cd react-refresher
+  178  npm run dev
+  179  cd ..
+  180  git add react-refresher
+  181  git commit -m "Work in progress."
+  182  git switch main
+  183  git pull origin main
+  184  git branch react-hot-button-component
+  185  git switch react-hot-button-component
+  186  cd react-hot-button-component
+  187  npm create vite@latest hannah-app -- --template react 
+  188  cd hannah-app
+  189  npm install
+  190  npm run dev
+  191  cd hannah-app
+  192  npm run dev
+  193  npm run install
+  194  cd ..
+  195  cd react-hot-button-component
+  196  cd hannah-app
+  197  npm install
+  198  npm run dev
+  199  cd react-hot-button-component
+  200  cd hannah-app
+  201  npm install
+  202  npm run dev
+  203  cd ..
+  204  cd ..
+  205  git add react-hot-button-component
+  206  git commit -m "Completed react-hot-button-component
+  207  cd react-toggle-switch-component
+  208  cd hannah-app
+  209  npm install
+  210  npm run dev
+  211  cd ..
+  212  cd ..
+  213  git add react-toggle-switch-component
+  214  git commit -m "Completed react-toggle-switch-component
+  215  exercise."
+  216  git push origin react-toggle-switch-component
+  217  git switch main
+  218  git pull origin main
+  219  git branch react-rendering-lists
+  220  git switch react-rendering-lists
+  221  cd react-rendering-lists
+  222  npm create vite@latest hannah-app -- --template react-ts
+  223  cd hannah-app
+  224  npm install
+  225  npm run dev
+  226  npm run dev
+  227  npm run dev
+  228  cd ..
+  229  cd ..
+  230  git add react-rendering-lists
+  231  git commit -m "Completed react-rendering-lists exercise."
+  232  git push origin react-rendering-lists
+  233  git switch main
+  234  git pull origin main
+  235  git switch react-toggle-switch-component 
+  236  cd hannah-app
+  237  npm install
+  238  npm run dev
+  239  cd ..
+  240  cd react-toggle-switch-component
+  241  cd hannah-app
+  242  npm install
+  243  npm run dev
+  244  cd ..
+  245  cd ..
+  246  git add react-toggle-switch-component
+  247  commt -m "Edited out some code."
+  248  git push origin react-toggle-switch-component
+  249  git switch main
+  250  git status
+  251  git add react-toggle-switch-component
+  252  git commit -m "Edited some code."
+  253  git push origin react-toggle-switch-component
+  254  git switch main
+  255  git pull origin main
+  256  git switch react-rendering-lists
+  257  git switch main
+  258  git switch react-rendering-lists
+  259  git switch main
+  260  git branch react-form-controls
+  261  git switch react-form-controls
+  262  cd react-form-controls
+  263  npm create vite@latest hannah-app -- --template react-ts
+  264  cd hannah-app
+  265  npm install
+  266  npm run dev
+  267  cd ..
+  268  cd ..
+  269  git add react-form-controls
+  270  git commit -m "Completed react-form-controls exercise."
+  271  git push origin react-form-controls
+  272  git switch main
+  273  git pull origin main
+  274  git branch react-validated-input-component 
+  275  git switch react-validated-input-component
+  276  cd react-validated-input-component
+  277  cd ..
+  278  git switch react-form-controls
+  279  git add react-form-controls
+  280  git commit -m "Made the consolelog code cleaner."
+  281  git push origin react-form-controls
+  282  git switch main
+  283  git pull origin main
+  284  git switch react-validated-input-component
+  285  cd react-validated-input-component
+  286  npm create vite@latest hannah-app -- --template react-ts
+  287  cd hannah-app
+  288  npm install
+  289  npm run dev
+  290  cd .. 
+  291  cd ..
+  292  git add react-validated-input-component
+  293  git commit -m "Completed react-validated-input-component exercise."
+  294  git push origin react-validated-input-component 
+  295  git add react-validated-input-component
+  296  git commit -m "Edited a div tag."
+  297  git push origin react-validated-input-component
+  298  git switch main
+  299  git pull origin main
+  300  git branch react-design
+  301  git switch react-design
+  302  cd react-design
+  303  npm create vite@latest hannah-app -- --template react-ts 
+  304  cd hannah-app
+  305  npm install
+  306  npm run dev
+  307  cd ..
+  308  cd ..
+  309  git add react-design
+  310  git commit -m "Completed phase 1 of react-design exercise."
+  311  git push origin react-design
+  312  cd react-design
+  313  hannah-app
+  314  cd hannah-app
+  315  npm run dev
+  316  cd ..
+  317  cd ..
+  318  git add react-design
+  319  git commit -m "Completed phase 2 of react-design exercise."
+  320  git push origin react-design
+  321  git add react-design
+  322  git commit -m "Completed phase 2 of react-design exercise."
+  323  git push origin react-design
+  324  cd hannah-app
+  325  npm run dev
+  326  npm install
+  327  npm run dev
+  328  cd react-design
+  329  cd hannah-app
+  330  npm install
+  331  npm run dev
+  332  cd ..
+  333  cd ..
+  334  git add react-design
+  335  git commit -m "Completed react-design exercise."
+  336  git push origin react-design
+  337  git add react-design
+  338  git commit -m "Added in quiz answers."
+  339  git push origin react-design
+  340  git switch main
+  341  git pull origin main
+  342  git branch react-search-component
+  343  git switch react-search-component
+  344  cd react-search-component 
+  345  npm create vite@latest hannah-app -- --template react-ts
+  346  cd hannah-app
+  347  npm install
+  348  npm run dev
+  349  npm install react-icons
+  350  npm run dev
+  351  npm run dev
+  352  npm run dev
+  353  npm install react-icons --save
+  354  npm run dev
+  355  npm uninstall react-icons
+  356  npm uninstall react-icons --save
+  357  npm run dev
+  358  cd .. 
+  359  cd ..
+  360  git add react-search-components
+  361  git add react-search-component
+  362  git commit -m "Work in progress. Can't troubleshoot."
+  363  cd hannah-app
+  364  npm run dev
+  365  cd react-search-component
+  366  cd hannah-app
+  367  npm run dev
+  368  cd ..
+  369  cd ..
+  370  git add react-search-component 
+  371  git commit -m "Work in progress."
+  372  git switch main
+  373  git pull origin main
+  374  git status
+  375  git branch react-accordion-component
+  376  git switch react-accordion-component
+  377  cd react-accordion-components
+  378  cd react-accordion-component
+  379  npm create vite@latest hannah-app -- --template react-ts
+  380  cd hannah-app
+  381  npm install
+  382  npm run dev
+  383  npm run dev
+  384  cd .. 
+  385  cd ..
+  386  git add react-accordion-component
+  387  git commit -m "Work in progress."
+  388  git switch main
+  389  git pull origin main
+  390  git branch react-app-drawer-component
+  391  git switch react-app-drawer-component
+  392  cd react-app-drawer-component
+  393  cd react-app-drawer-component
+  394  cd react-app-drawer-component 
+  395  cd react-app-drawer-component 
+  396  npm create vite@latest hannah-app -- --template react-ts
+  397  cd hannah-app
+  398  npm install
+  399  npm run dev
+  400  npm run dev
+  401  git status
+  402  git add react-app-drawer-component
+  403  git commit -m "Work in progress."
+  404  git add react-app-drawer-component
+  405  git commit -m "Work in progress."
+  406  git switch react-search-component
+  407  cd react-search-component
+  408  cd hannah-app
+  409  npm run dev
+  410  cd ..
+  411  cd ..
+  412  git add react-search-component
+  413  git commit -m "Completed react-search-component exercise."
+  414  git push origin react-search-component
+  415  git switch main
+  416  git pull origin main
+  417  git switch react-accordion-component
+  418  cd react-accordion-component
+  419  git hannah-app
+  420  cd hannah-app
+  421  npm run dev
+  422  npm run dev
+  423  npm run dev
+  424  npm run dev
+  425  cd ..
+  426  cd ..
+  427  cd react-accordion-component
+  428  npm create vite@latest hannah-app -- --template react-ts
+  429  cd hannah-app
+  430  npm install
+  431  npm run dev
+  432  cd ..
+  433  cd hannah-app
+  434  npm run dev
+  435  cd ..
+  436  cd ..
+  437  git add react-accordion-component
+  438  git commit -m "Work in progress, the map function is not working."
+  439  cd react-accordion-component
+  440  cd hannah-app
+  441  npm run dev
+  442  cd ..
+  443  cd ..
+  444  git add react-accordion-component
+  445  git commit -m "Work in progress."
+  446  git switch main
+  447  git pull origin main
+  448  git switch react-app-drawer-component
+  449  cd react-app-drawer-component
+  450  cd ..
+  451  cd react-app-drawer-component
+  452  npm install react-icons
+  453  cd ..
+  454  git add react-app-drawer-component
+  455  git commit -m "Work in progress."
+  456  git add react-app-drawer-component
+  457  git commit -m "Work in progress."
+  458  git add react-app-drawer-component
+  459  git commit -m "Work in progress."
+  460  git switch main
+  461  git pull origin main
+  462  git switch react-accordion-component
+  463  cd react-accordion-component
+  464  cd hannah-app
+  465  npm run dev
+  466  cd react-accordion-component
+  467  cd hannah-app
+  468  npm run dev
+  469  cd .. 
+  470  cd ..
+  471  git add react-accordion-component
+  472  git commit -m "Completed react-accordion-component exercise."
+  473  git push origin react-accordion-component 
+  474  git switch main
+  475  git pull origin main
+  476  git switch react-app-drawer-component
+  477  cd react-app-drawer-component
+  478  cd hannah-app
+  479  npm run dev
+  480  cd ..
+  481  cd ..
+  482  cd react-app-drawer-component
+  483  npm create vite@latest hannah-app -- --template react-ts
+  484  cd hannah-app
+  485  npm install
+  486  npm run dev
+  487  npm install react-icons
+  488  npm run dev
+  489  cd .. 
+  490  cd ..
+  491  git add react-app-drawer-component'
+  492  git add react-app-drawer-component
+  493  git commit -m "Completed react-app-drawer-component exercise."
+  494  git push origin react-app-drawer-component
+  495  git switch main
+  496  git pull origin main
+  497  git pull origin main
+  498  git branch command-line-basics
+  499  git switch command-line-basics
+  500  cd command-line-basics
+  501  man man
+  502  man man 
+  503  man man
+  504  man cat
+  505  man cat
+  506  cat laziness.txt
+  507  cat impatience.txt
+  508  cat hubris.txt
+  509  cat laziness.txt impatience.txt hubris.txt
+  510  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  511  cat three-virtues.txt
+  512  man ls
+  513  ls -a
+  514  lf -F
+  515  ls -F
+  516  ls lfz-staff/
+  517  ls -a
+  518  ls -a lfz-staff/
+  519  ls -F lfz-staff/
+  520  ls lfz-staff/contents/txt
+  521  ls lfz-staff/contents.txt
+  522  ls -aF lfz-staff > lfz-staff/contents.txt
+  523  cat lfz-staff/contents.txt
+  524  man pwd
+  525  pwd
+  526  pwd > i-was-here.txt
+  527  ls -aF i-was-here.txt
+  528  ls
+  529  cat i-was-here.txt
+  530  cat i-was-here.txt
+  531  man echo
+  532  echo "Hello, World!"
+  533  echo "Hello, World!" > hello.txt
+  534  ls
+  535  cat hello.txt
+  536  man touch
+  537  touch tag-youre-it.txt
+  538  touch snoot/boop.txt
+  539  ls snoot/
+  540  man mkdir
+  541  mkdir parent
+  542  ls parent/
+  543  mkdir -p
+  544  mkdir -p parent/child/grandchild
+  545  touch parent/child/grandchild.gitkeep
+  546  ls -a
+  547  ls -a parent/child/grandchild
+  548  man mv
+  549  mv pokiemans pokemon
+  550  ls pokemon
+  551  man cp
+  552  man rm
+  553  rm lol.text
+  554  rm lol.txt
+  555  ls
+  556  rm -r kill-me/
+  557  ls
+  558  cp and-then.txt no-and-then.txt
+  559  ls 
+  560  cat and-then.txt
+  561  cat no-and-then.txt
+  562  man history
+  563  history
+  564  history > command-history.txt
