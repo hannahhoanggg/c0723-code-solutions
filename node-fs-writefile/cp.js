@@ -5,10 +5,10 @@ const destinationFile = process.argv[3];
 
 async function copyFile() {
   try {
-    const fileContent = await readFile(sourceFile, 'utf8');
-    await writeFile(destinationFile, fileContent + '\n');
+    const fileContent = await readFile(sourceFile);
+    await writeFile(destinationFile, fileContent);
   } catch (error) {
-    console.log('error: ', error.message);
+    console.log('error: ', error);
   }
 }
 copyFile();
