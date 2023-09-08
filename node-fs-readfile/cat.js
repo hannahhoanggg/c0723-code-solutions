@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 
-const fileName = process.argv.slice(2);
+const fileNames = process.argv.slice(2);
 
 async function catFiles(filePaths) {
   try {
@@ -12,4 +12,4 @@ async function catFiles(filePaths) {
   }
 }
 
-catFiles(fileName);
+catFiles(fileNames);

@@ -11,7 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is an absolute file path?
   Absolute file path is a reference to the location of a file or directory within a file system. It specifies the file's precise location from root directory of file system, providing full path to access it.
 - What module does Node.js include for manipulating the file system?
-  Node.js includes a built-in moduled called the 'fs' (file system) module that provides a wide range of functions & methods for interacting with the file system that allows you to create, read, update, & delete files/directories, among other file-related operations.
+  Node.js includes a built-in module called the 'fs' (file system) module that provides a wide range of functions & methods for interacting with the file system that allows you to create, read, update, & delete files/directories, among other file-related operations.
 - What method is available in the `node:fs` module for reading data from a file?
   In the 'node:fs' module, you can use the 'readFile()' method to read data from a file. It is used to asynchronously read the contents of a file & is one of the most commonly used methods for file reading operations in node.
 
