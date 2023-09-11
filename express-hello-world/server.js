@@ -4,7 +4,7 @@ const app = express();
 
 app.use((req, res) => {
   console.log(req.method);
-  res.send('Hello, Nodemon!');
+  res.send('Hello, World!');
 });
 
 app.listen(8080, () => {

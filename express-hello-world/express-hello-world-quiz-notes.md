@@ -11,7 +11,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - How do you mount a middleware with an Express application?
   In Express, you can mount a middleware to the application by using the "app.use()" method.
 - Which objects does an Express application pass to your middleware to manage the request/response lifecycle of the server?
-  The Express application pass 2 important middleware to manage the request/response lifecycle of the server by the "req" & "res" objects.
+  The Express application pass important middleware to manage the request/response lifecycle of the server by the "req" & "res" & "next" objects.
   -The "req" object represents the HTTP request & contains info about the incoming request from the client.
   -The "res" object represents the HTTP response & is used to send a response back to the client.
 
