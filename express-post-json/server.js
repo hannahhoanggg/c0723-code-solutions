@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-// const nextId = 1;
+let nextId = 1;
 const grades = {};
 
 app.get('/api/grades', (req, res) => {
@@ -15,6 +15,14 @@ app.get('/api/grades', (req, res) => {
 
 app.use(express.json());
 
-// app.post('/api/grades', (req, res) => {
-//   const newData = req.body;
-//   })
+app.post('/api/grades', (req, res) => {
+  const newData = req.body;
+  grades[nextId] = newData;
+  newData.id = nextId;
+  res.status(201).send(grades[nextId]);
+  nextId++;
+});
+
+app.listen(8080, () => {
+  console.log('Express server listening on port 8080');
+});
