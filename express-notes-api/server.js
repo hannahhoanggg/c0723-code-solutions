@@ -92,8 +92,8 @@ app.delete('/api/notes/:id', async (req, res) => {
 
 app.put('/api/notes/:id', async (req, res) => {
   try {
-    const notesId = Number(req.params.id);
-    if (notesId < 0) {
+    const id = Number(req.params.id);
+    if (id < 0) {
       res.status(400).json({ error: 'Note ID must be a positive integer.' });
       return;
     }
@@ -103,11 +103,11 @@ app.put('/api/notes/:id', async (req, res) => {
       return;
     }
     const data = await readData();
-    if (data.notes[notesId] === undefined) {
-      res.status(404).json({ error: `There is no note with that ${notesId}.` });
+    if (data.notes[id] === undefined) {
+      res.status(404).json({ error: `There is no note with that ${id}.` });
       return;
     }
-    const note = { notesId, content };
+    const note = { id, content };
     data.notes[note.id] = note;
     await writeData(data);
     res.json(note);

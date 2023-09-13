@@ -1,5 +1,5 @@
 {
-  "nextId": 12,
+  "nextId": 13,
   "notes": {
     "2": {
       "id": 2,
@@ -17,13 +17,9 @@
       "id": 9,
       "content": "Inertia is a property of matter."
     },
-    "11": {
-      "id": 11,
-      "content": "I am still awake at this time."
-    },
-    "undefined": {
-      "notesId": 11,
-      "content": "I am hungry."
+    "12": {
+      "id": 12,
+      "content": "It is the morning time."
     }
   }
 }
