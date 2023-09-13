@@ -1,6 +1,7 @@
 import express from 'express';
 
 const app = express();
+app.use(express.json());
 
 let nextId = 1;
 const grades = {};
@@ -12,8 +13,6 @@ app.get('/api/grades', (req, res) => {
   }
   res.json(gradeArray);
 });
-
-app.use(express.json());
 
 app.post('/api/grades', (req, res) => {
   const newData = req.body;
