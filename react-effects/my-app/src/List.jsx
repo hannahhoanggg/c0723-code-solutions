@@ -18,6 +18,7 @@ export default function List() {
         setIsLoading(false);
         setItems(listItems);
       } catch (error) {
+        setIsLoading(false);
         setError(error);
       }
     }
