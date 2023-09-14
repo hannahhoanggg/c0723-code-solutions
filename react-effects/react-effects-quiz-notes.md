@@ -12,7 +12,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   You should use Effect when you need to manage side effects or perform certain actions that are not directly related to rendering but are necessary for your component to function correctly. You can use it for data fetching, DOM manipulation, timers, & synchronization.
   -You should not use Effect when you don't need side effects for simple state updates, pure rendering, & conditional rendering.
 - When do Effects run?
-  Effects run after the component has rendered. It usually run after the initial render, after every render, & for the cleanup function.
+  -It first mounts & calls your effect
+  -When the dependency changes so the function gets called
 - What function is used to declare an Effect?
   You declare an effect by using the "useEffect" hook. It is a built-in React hook that allows you to perform side effects in your functional components.
 - What are Effect dependencies and how do you declare them?
