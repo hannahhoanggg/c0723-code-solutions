@@ -8,12 +8,10 @@ fetchData();
 async function getPokemon() {
   try {
     const response = await fetch('https://pokeapi.co/api/v2/pokemon/39');
-    if (!response.ok) {
+    if (!response.ok)
       throw new Error(`Error: , status code: ${response.status}`);
-    } else {
-      const pokemon = await response.json();
-      console.log(pokemon);
-    }
+    const pokemon = await response.json();
+    console.log(pokemon);
   } catch (error) {
     console.log(`Error retrieving data, status code `, error.message);
   }
