@@ -27,7 +27,7 @@ export default function Users() {
       }
     }
     fetchUsers();
-  }, [users]);
+  }, []);
 
   if (isLoading) {
     return <p>Loading...</p>;
