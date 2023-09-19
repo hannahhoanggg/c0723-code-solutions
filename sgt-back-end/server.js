@@ -96,7 +96,13 @@ app.delete('/api/grades/:gradeId', async (req, res, next) => {
     const deleteParams = [gradeId];
     const result = await db.query(deleteSql, deleteParams);
     const grade = result.rows[0];
-    res.sendStatus(204).json(grade);
+    if (grade) {
+      res.sendStatus(204);
+    } else {
+      res
+        .status(404)
+        .json({ error: `Cannot find grade with "gradeId" ${gradeId}` });
+    }
   } catch (error) {
     next(error);
     res.status(500).json({ error: 'Internal Server Error' });
