@@ -32,7 +32,7 @@ app.post('/api/auth/sign-up', async (req, res, next) => {
     const hashedPassword = await argon2.hash(password);
     const sql = `insert into "users" ("username", "hashedPassword")
                   values ($1, $2)
-                  returning *
+                  returning "userId", "username"
                   `;
     const params = [username, hashedPassword];
     const result = await db.query(sql, params);
