@@ -50,7 +50,7 @@ app.post('/api/auth/sign-in', async (req, res, next) => {
                     `;
     const postParams = [username];
     const result = await db.query(postSql, postParams);
-    if (!result) throw new ClientError(401, 'invalid login');
+    if (result.rows.length === 0) throw new ClientError(401, 'invalid login');
     const { userId, hashedPassword } = result.rows[0];
     const matchedPassword = await argon2.verify(hashedPassword, password);
     if (!matchedPassword) throw new ClientError(401, 'invalid login');
