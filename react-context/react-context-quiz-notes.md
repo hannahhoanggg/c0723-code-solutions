@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is the purpose of React "context"?
   Context that allows you to share data between components without having to pass props manually through each level of the component tree. It provides a way to manage global state or share specific data with components that need it. The main purpose is to simplify the process of prop drilling, which is the practice of passing data thru multiple levels of nested components.
 - What values can be stored in context?
-  The values that can be stored in context are objects, functions, primitives (strings, numbers, booleans, null), arrays. callback functions & custom data structures.
+  The values that can be stored in context are objects, functions, primitives (strings, numbers, booleans, null), arrays. callback functions & custom data structures. It could be anything!!
 - How do you create context and make it available to the components?
   You create a context using the createContext() method. You make it available to components by wrapping the app with the provider component.
 - How do you access the context values?
