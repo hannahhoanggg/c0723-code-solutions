@@ -14,7 +14,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - How do you call a custom hook?
   To call a custom hook, you import the custom hook function & invoke it as you would with any JavaScript function(call custom hook within your component function).
 - When do custom hooks execute?
-  Custom hooks execute whenever they are called within a functional component. The execution of a custom hook is similar to the execution of any regular JavaScript function. It returns the values & functions you've defined within it.
+  Custom hooks execute whenever they are called within a functional component. The execution of a custom hook is similar to the execution of any regular JavaScript function. It returns the values & functions you've defined within it. Every single time it is called, it gets rendered.
 
 ## Notes
 
