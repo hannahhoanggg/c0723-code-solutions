@@ -24,10 +24,7 @@ export function toDollars(amount) {
  * @returns a new array.
  */
 export function divideBy(numbers, divisor) {
-  for (let i = 0; i < numbers.length; i++) {
-    numbers[i] = numbers[i] / divisor;
-  }
-  return numbers;
+  return numbers.map((n) => n / divisor);
 }
 
 /**
@@ -38,11 +35,8 @@ export function divideBy(numbers, divisor) {
  * @returns the input object.
  */
 export function multiplyBy(obj, multiplier) {
-  const result = {};
   Object.entries(obj).forEach(([key, value]) => {
-    if (typeof value === 'number') {
-      result[key] = value * multiplier;
-    }
+    if (typeof value === 'number') obj[key] = value * multiplier;
   });
-  return result;
+  return obj;
 }
